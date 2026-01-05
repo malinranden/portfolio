@@ -3,7 +3,7 @@ import './Home.css';
 
 function Home () {
     return (   
-            <div className='parent'>
+            <div className='container-landing-page'>
                 <h1>Welcome to my portfolio</h1>
                 <Link to='/portfolio'>
                     <button>see more</button>

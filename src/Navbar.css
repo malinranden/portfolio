@@ -6,12 +6,17 @@
     display: flex;
     justify-content: center;
     background-color: antiquewhite;
+    /* box-sizing: border-box; */
+    position: sticky;
+    top: 0;
+
 }
 nav {
     width: 70%;
     height: 60px;
     display: flex;
     justify-content: space-between;
+
 }
 li {
     list-style: none;
