@@ -1,0 +1,38 @@
+/* body {
+    display: flex;
+    justify-content: center;
+} */
+.navbar-background {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+nav {
+    width: 70%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+    min-width: 66px;
+    padding: 2%;
+    margin: 2%;
+}
+ul {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .ul-left {
+    display: flex;
+} */
+.ul-right {
+    width: 300px;
+}
+ul, a {
+    text-decoration: none;
+}
