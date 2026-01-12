@@ -7,7 +7,10 @@ function Portfolio () {
             <Navbar></Navbar>
             <div className='container-portolio-page'>
                 <div className='container-welcome'>
-                    <h1>Hi, my name is Malin</h1>
+                    <div>
+                        <h1>Hi, my name is Malin</h1>
+                        <p>I'm not a Matrix geek, just having some fun</p>
+                    </div>
                     <img src="" alt="image-of-me" />
                 </div>
                 <div className='container-about-me'>
