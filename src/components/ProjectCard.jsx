@@ -1,14 +1,16 @@
+// import './_projects.scss' // testade ta bort denna - tror den länkar i Projects.jsx
+import './_projects.scss';
 function ProjectCard({project, onClick}) {
     return (
-        <div className="projectDiv" onClick={onClick}>
-            <div className="projectDiv-top">
-                <img src={project.img} alt={project.title} className="img"/>
+        <div className="card" onClick={onClick}>
+            <div className="card__top">
+                {/* <img src={project.img} alt={project.title} className="card__img"/> */}
             </div>
-            <div className="projectDiv-bottom">
-                <h2 className="projectTitle">{project.title}</h2>
-                <p className="projectText">{project.tags}</p>
+            <div className="card__bottom">
+                <h2 className="card__title">{project.title}</h2>
+                <p className="card__tags">{project.tags}</p>
             </div>
         </div>
     )
 }
-export default ProjectStructure;
+export default ProjectCard;

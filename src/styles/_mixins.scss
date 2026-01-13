@@ -1,0 +1,7 @@
+@mixin sections {
+    display: flex;
+    justify-content: space-between;
+    // flex??
+    width: 100%; // denna iaf 
+    padding: 20px; // rimlig? 
+}
