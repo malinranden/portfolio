@@ -9,7 +9,7 @@ const Projectinfo = [
         title: "Test - 12h deadline",
         img: Brhomaon,
         info: "info",
-        tags: ["#Javascript", " ", "#CSS", " ", "#Sass"],
+        tags: ["#CSS", " ", "#Javascript", " ", "#Sass"],
         popupInfo: {
             shortWriteUp: "This was a test in the course where we had 12 hours to complete this Figma file. Besides from creating the image we had to add interactivity and a responsive design for all devices.",
             info: "info",
@@ -22,7 +22,7 @@ const Projectinfo = [
         title: "My portfolio", 
         img: portfolio,
         info: "info",
-        tags: ["#Javascript", " ", "#CSS", " ", "#test"],
+        tags: ["#CSS", " ", "#Javascript", " ", "#Sass", " ", "#React"],
         popupInfo: {
             shortWriteUp: "This was an assignment to create a webpage from a Figma form. Simple instructions.",
             info: "Info",
@@ -36,7 +36,7 @@ const Projectinfo = [
         title: "Game in React",
         img: game,
         info: "Group assignment to create any game using React and API's",
-        tags: ["#Javascript", " ", "#CSS", " ", "#React"],
+        tags: ["#CSS", " ", "#Javascript", " ", "#React"],
         popupInfo: {
             shortWriteUp: "This was a group assignment to create a simple game with javascript in React. One part of the assignment was to use an API which was one of my resposibilities. I have created the opponents page where there is a choice of characters to play against.",
             linkHost: "#",
