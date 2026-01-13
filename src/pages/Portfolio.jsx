@@ -1,9 +1,5 @@
 import './_portfolio.scss'
-// import '../styles/_variables.scss'
 import Navbar from "../components/Navbar.jsx";
-// import Projects from '../components/Projects.jsx';
-// import ProjectCard from '../components/ProjectCard.jsx';
-// import Projectinfo from '../components/ProjectCard.jsx'
 import Projects from '../components/Projects.jsx';
 function Portfolio () {
 

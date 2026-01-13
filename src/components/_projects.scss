@@ -28,6 +28,12 @@
     /* padding: 20px; */
     border-radius: 10px;
     overflow: hidden;
+    // position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 
     &__top {
         width: 100%;
@@ -44,21 +50,38 @@
         justify-content: center;
         align-items: center;
 
-        text-align: center;
+        // text-align: center;
     }
     &__img {
         height: 100%;
         box-sizing: border-box;
         margin: 0;
+        
     }
     &:hover {
         transform: scale(1.01);
-        opacity: 0.9;
+        &:hover .card__more {
+            opacity: 1;
+        }
     }
     &:active {
         background-color: rgba(255, 255, 255, 0.868);
     }
     &__title {
-        font-size: 30px;    
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    &__tags {
+        margin-top: 0;
+    }
+    &__more {
+        width: 80px;
+        opacity: 0;
+        transition: opacity 1.5s;
+        position: absolute;
+        bottom: 10px;
+        font-style: italic;
+        letter-spacing: 0.2;
     }
 }
+

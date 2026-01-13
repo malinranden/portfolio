@@ -11,6 +11,7 @@ function ProjectCard({project, onClick}) {
                 <p>{project.info}</p>
                 <p className="card__tags">{project.tags}</p>
             </div>
+            <p className="card__more">click to read more</p>
         </div>
     )
 }
