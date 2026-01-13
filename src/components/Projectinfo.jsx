@@ -11,7 +11,7 @@ const Projectinfo = [
         info: "info",
         tags: ["#CSS", " ", "#Javascript", " ", "#Sass"],
         popupInfo: {
-            shortWriteUp: "This was a test in the course where we had 12 hours to complete this Figma file. Besides from creating the image we had to add interactivity and a responsive design for all devices.",
+            shortWriteUp: "This was a test in the course where we had 12 hours to complete this Figma file. Besides from creating the image we had to add interactivity and a responsive design for all devices. This was an assignment to create a webpage from a Figma form.",
             info: "info",
             linkHost: "https://github.com/malinranden/test-your-skills.git",
             linkRepo: "https://github.com/malinranden/test-your-skills.git",
@@ -24,7 +24,7 @@ const Projectinfo = [
         info: "info",
         tags: ["#CSS", " ", "#Javascript", " ", "#Sass", " ", "#React"],
         popupInfo: {
-            shortWriteUp: "This was an assignment to create a webpage from a Figma form. Simple instructions.",
+            shortWriteUp: "Fully responsive (down to mobile screen).",
             info: "Info",
             linkHost: "https://github.com/malinranden/Assignment-lesson-11-Sass.git",
             linkRepo: "https://github.com/malinranden/Assignment-lesson-11-Sass.git",
