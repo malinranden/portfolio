@@ -2,7 +2,8 @@ import Brhomaon from "../assets/brhomaon.png"; // ./ eller ../ ?
 // import genesis from "../assets/genesis.png";
 import portfolio from '../assets/portfolio.png'
 import game from '../assets/game.png'
-
+import gamegame from '../assets/gamegame.png'
+import gamesignin from '../assets/gamesignin.png'
 const Projectinfo = [ 
     {
         id: 1,
@@ -11,7 +12,7 @@ const Projectinfo = [
         info: "info",
         tags: ["#CSS", " ", "#Javascript", " ", "#Sass"],
         popupInfo: {
-            shortWriteUp: "This was a test in the course where we had 12 hours to complete this Figma file. Besides from creating the image we had to add interactivity and a responsive design for all devices. This was an assignment to create a webpage from a Figma form.",
+            shortWriteUp: "A 12 hours deadline test to create this Figma file, adding interactivity and responsive design for all screen-sizes.",
             info: "info",
             linkHost: "https://github.com/malinranden/test-your-skills.git",
             linkRepo: "https://github.com/malinranden/test-your-skills.git",
@@ -42,6 +43,7 @@ const Projectinfo = [
             linkHost: "#",
             linkRepo: "#",
             // link: "#",
+            images: gamesignin
         }
     }
 ]
