@@ -75,9 +75,8 @@ function Form() {
           autoComplete="off"
         />
 
-        <button type="submit" className="form__button">
-          Send Message
-        </button>
+        <input type="submit" value="Send Message" />
+        
       </form>
 
     </div>
