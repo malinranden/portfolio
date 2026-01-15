@@ -1,19 +1,19 @@
 import './_portfolio.scss'
 import Navbar from "../components/Navbar.jsx";
+import Welcome from '../components/Welcome.jsx';
 import Projects from '../components/Projects.jsx';
-function Portfolio () {
+import Form from '../components/Form.jsx'
+// import { useState } from 'react';
+// import Popupinfo from '../components/Popupinfo.jsx'
 
+function Portfolio () {
+    // const [ProjectInfo, setProjectInfo] = useState(null);// tog bort null, verkar funka?
     return (
         <> 
             <Navbar></Navbar>
             <div className='portfolio'>
                 <div className='welcome'>
-                    <div>
-                        <h1>Hi, my name is Malin</h1>
-                        <p>Not a Matrix geek, just a fresh frontend developer having some fun with one of my many ideas</p>
-                        <p>I'm a fresh frontend developer planning to go into UX/UI design.</p>
-                    </div>
-                    <img src={"#"} alt="image-of-me" />
+                    <Welcome/>
                 </div>
                 <div className='about'>
                     <h3>About me</h3>
@@ -34,11 +34,17 @@ function Portfolio () {
                     <h3>My projects</h3>
                     <div>
                         <Projects/>
+                        {/* {ProjectInfo && (
+                            <Popupinfo 
+                                popupContent={ProjectInfo}
+                                onClose={() => setProjectInfo(null)} // tog bort null, verkar funka? två ställen
+                            />
+                        )} */}
                     </div>
                 </div>
 
                 <div className='contact'>
-                    <h3>Contact me form</h3>
+                    <Form/>
                 </div>
             </div>
         </>

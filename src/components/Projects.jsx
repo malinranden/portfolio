@@ -2,7 +2,12 @@
 import Projectinfo from "./ProjectInfo.jsx";
 import ProjectCard from './ProjectCard.jsx';
 import './_projects.scss';
+import { useState } from 'react';
+import PopupCard from "./PopupCard.jsx";
+import './_PopupCard.scss'
 function Projects() {
+    // const [projectInfo, setProjectInfo] = useState(null);// tog bort null, verkar funka?
+    const [selectedProject, setSelectedProject] = useState(null);
     return (
         <>
             <div className="projects__content">
@@ -10,9 +15,18 @@ function Projects() {
                     <ProjectCard 
                         key={project.id}
                         project={project}
+                        onClick={() => setSelectedProject(project)}
                     />
+                    
                 ))}
-  
+
+                {selectedProject && (
+                    <PopupCard 
+                        popupContent={selectedProject}
+                        onClose={() => setSelectedProject(null)} // tog bort null, verkar funka? två ställen
+                    />
+                )}
+
             </div>
         </>
     )

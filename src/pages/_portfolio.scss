@@ -16,9 +16,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: cadetblue;
-    /* position: absolute;
-    top: 0; */
+    // background-color: cadetblue;
+
+    margin-top: -60px; // this is to remove the height from navbar
 }
 .about{
     width: variables.$content-width;

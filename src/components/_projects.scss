@@ -28,7 +28,7 @@
     /* padding: 20px; */
     border-radius: 10px;
     overflow: hidden;
-    // position: relative;
+    position: relative;
 
     display: flex;
     flex-direction: column;
@@ -77,11 +77,12 @@
     &__more {
         width: 80px;
         opacity: 0;
-        transition: opacity 1.5s;
+        transition: opacity 1s;
         position: absolute;
         bottom: 10px;
-        font-style: italic;
+        // font-style: italic;
         letter-spacing: 0.2;
+        color: rgba(0, 0, 0, 0.585);
     }
 }
 
