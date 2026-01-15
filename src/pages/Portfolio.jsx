@@ -3,18 +3,18 @@ import Navbar from "../components/Navbar.jsx";
 import Welcome from '../components/Welcome.jsx';
 import Projects from '../components/Projects.jsx';
 import Form from '../components/Form.jsx'
-// import { useState } from 'react';
-// import Popupinfo from '../components/Popupinfo.jsx'
 
 function Portfolio () {
-    // const [ProjectInfo, setProjectInfo] = useState(null);// tog bort null, verkar funka?
     return (
         <> 
             <Navbar></Navbar>
+
             <div className='portfolio'>
+
                 <div className='welcome'>
                     <Welcome/>
                 </div>
+
                 <div className='about'>
                     <h3>About me</h3>
                     <div className='about__text'>
@@ -34,18 +34,13 @@ function Portfolio () {
                     <h3>My projects</h3>
                     <div>
                         <Projects/>
-                        {/* {ProjectInfo && (
-                            <Popupinfo 
-                                popupContent={ProjectInfo}
-                                onClose={() => setProjectInfo(null)} // tog bort null, verkar funka? två ställen
-                            />
-                        )} */}
                     </div>
                 </div>
 
                 <div className='contact'>
                     <Form/>
                 </div>
+
             </div>
         </>
     )
