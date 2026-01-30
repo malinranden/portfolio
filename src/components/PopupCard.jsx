@@ -1,14 +1,30 @@
 import "./_PopupCard.scss"
 // import './_projects.scss'
+import game from '../assets/game.png'
+import gamegame from '../assets/gamegame.png'
+import gamesignin from '../assets/gamesignin.png'
 
 function PopupCard({popupContent, onClose}) {
     
     return (
         <div className="PopupCard" onClick={onClose}>
             <div className="PopupCard__container">
-                <button onClick={onClose} className="PopupCard__closeBtn"><i className="fa-solid fa-x"></i></button>
+                <button onClick={onClose} className="PopupCard__closeBtn"><i className="fa-solid fa-xmark"></i></button>
                 <div className="PopupCard__image-section">
-                    <img className="PopupCard__img" src={popupContent.popupInfo.images} alt="images" />
+                    
+                    {popupContent.popupInfo.images.map((img, index) => (
+                        <img
+                        key={index}
+                        className="PopupCard__img"
+                        src={img}
+                        alt={`Project image ${index + 1}`}
+                        />
+                    ))}
+
+                        {/* <img src={game} alt="" />
+                        <img src={gamesignin} alt="" />
+                        <img src={gamegame} alt="" /> */}
+
                 </div>
                 <div className="PopupCard__text-section" onClick={(e) => e.stopPropagation()}>
                     {/* <div className="PopupCard__info" > */}

@@ -43,7 +43,7 @@ const Projectinfo = [
             linkHost: "#",
             linkRepo: "#",
             // link: "#",
-            images: gamesignin
+            images: [gamesignin, gamegame, game]
         }
     }
 ]

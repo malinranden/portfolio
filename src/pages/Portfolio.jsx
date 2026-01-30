@@ -23,10 +23,11 @@ function Portfolio () {
                             And some other courses in film editing, freelance journalism, 
                             and meditation.</p>
                         <p>I got into frontend because I wanted a job where i get to create,
-                            where I can have flexibility and variation and because i enjoy 
+                            where I can have flexibility and variation in work tasks and because i enjoy 
                             editing on the computer </p>
                         <p>I also have an interest in psychology and cognition which is why 
-                            I plan to go in to UX and UI design. </p>
+                            I plan to go in to UX and UI design. I am also open and interested 
+                            to learn more about backend.</p>
                     </div>
                 </div>
 

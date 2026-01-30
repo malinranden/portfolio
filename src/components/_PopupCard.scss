@@ -26,7 +26,11 @@
         position: relative;
     }
     &__image-section {
-
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        // gap: 5%;
+        gap: 5rem 2rem;
+        grid-auto-rows: auto; // ?
     }
     &__text-section {
         width: 40%;
@@ -46,19 +50,27 @@
         align-items: center;
         justify-content: center;
         color: rgb(123, 123, 123);
-        font-size: 10px;
+        font-size: 12px;
         // display: inline-block;
         // line-height: 0;
         // text-align: center;
     }
 
-    &__img {
+    &__image-section img {
         width: 250px;
+          height: auto;
+        object-fit: cover;
         // position: absolute;
         // z-index: 2;
-        border-radius: 10%;
+        border-radius: 1rem;
     }
-
+    &__image-section img:last-of-type {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+        align-self: center;
+        // display: flex;
+        // align-items: center;
+    }
 }
 
 // .Thepopup {
