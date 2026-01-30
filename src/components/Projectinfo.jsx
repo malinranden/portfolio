@@ -2,6 +2,9 @@ import Brhomaon from "../assets/brhomaon.png"; // ./ eller ../ ?
 // import genesis from "../assets/genesis.png";
 import portfolio from '../assets/portfolio.png'
 import game from '../assets/game.png'
+import brhomaon2 from '../assets/brhomaon2.png'
+import brhomaon3 from '../assets/brhomaon3.png'
+import brhomaon4 from '../assets/brhomaon4.png'
 import gamegame from '../assets/gamegame.png'
 import gamesignin from '../assets/gamesignin.png'
 const Projectinfo = [ 
@@ -16,6 +19,7 @@ const Projectinfo = [
             info: "info",
             linkHost: "https://github.com/malinranden/test-your-skills.git",
             linkRepo: "https://github.com/malinranden/test-your-skills.git",
+            images: [brhomaon4, brhomaon2, brhomaon3]
         }
     },
     {
@@ -29,6 +33,7 @@ const Projectinfo = [
             info: "Info",
             linkHost: "https://github.com/malinranden/Assignment-lesson-11-Sass.git",
             linkRepo: "https://github.com/malinranden/Assignment-lesson-11-Sass.git",
+            images: []
             // link: "https://github.com/malinranden/Assignment-lesson-11-Sass.git",
         }
     },
