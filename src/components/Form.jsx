@@ -41,6 +41,7 @@ function Form() {
         className="form__inputfield"
         onSubmit={sendEmail}
       >
+        <label className="form__label">Name</label>
         <input
           className="form__inputs"
           type="text"
@@ -49,6 +50,7 @@ function Form() {
           required
         />
 
+        <label className="form__label">E-mail</label>
         <input
           className="form__inputs"
           type="email"
@@ -56,7 +58,7 @@ function Form() {
           placeholder="Email"
           required
         />
-
+        <label className="form__label">Message</label>
         <textarea
           className="form__inputs"
           name="message"
@@ -76,7 +78,7 @@ function Form() {
         />
 
         <input type="submit" value="Send Message" />
-        
+
       </form>
 
     </div>
