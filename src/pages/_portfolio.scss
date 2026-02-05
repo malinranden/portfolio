@@ -22,13 +22,16 @@
 }
 .about{
     width: variables.$content-width;
+    max-width: 500px;
     height: 500px;
-    background-color: aquamarine;
+    background-color: #ede9e0;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     color: gray;
+    border-radius: 50px;
+    margin-bottom: 5%;
     &__text {
         width: 80%;
         display: flex;
@@ -37,20 +40,20 @@
         text-align: center;
     }
 }
-// .projects {
-//     width: variables.$content-width;
-//     height: 500px;
-//     background-color: violet;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-// }
+.projects {
+    // background-color: #b8b0c5;
+    border-radius: 50px;
+    margin-bottom: 5%;
+    height: 80vh;
+}
 .contact {
     width: variables.$content-width;
     height: 500px;
+    height: 50vh;
     background-color: tomato;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50px;
+    margin-bottom: 8%;
 }

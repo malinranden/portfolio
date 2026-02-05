@@ -1,11 +1,13 @@
 
 .navbar {
  width: 100%;
- background-color: aliceblue;
- box-shadow: 0 2px 8px #00000008;
+ background-color: #f5d197;
+ box-shadow: 0 2px 8px #00000015;
  position: sticky;
  top: 0;
  z-index: 1;
+
+ 
 }
 nav {
 //   position: sticky;
@@ -20,15 +22,19 @@ nav {
   justify-content: space-between;
   align-items: center;
 
-  background-color: aliceblue;
+  background-color: #f5d197;
   
   text-align: center;
+
+  
+
 }
 li {
     list-style: none;
     min-width: 66px;
     padding: 2%;
     margin: 2%;
+    
 }
 ul {
     width: 100px;
@@ -43,11 +49,18 @@ ul {
 }
 ul, a {
     text-decoration: none;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
     color: #333333de;
+    color: aliceblue;
     &:hover {
         color: rgb(124, 124, 124);
     }
     // &:active { // funkar inte?
     //     color: #000;
     // }
+}
+.navbar__sun {
+    font-size: 40px;
 }

@@ -6,7 +6,8 @@ function Navbar () {
             <div className='navbar'>
                 <nav>
                     <ul>
-                        <li><a href="">Malin Randén</a></li>
+                        {/* <li><a href="">Malin Randén</a></li> */}
+                        <li><a href="" className='navbar__sun'>𖤓</a></li>
                     </ul>
                         <ul className='ul-right'>
                             <li><a href="">About me</a></li>

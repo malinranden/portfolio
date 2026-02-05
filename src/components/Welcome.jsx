@@ -6,6 +6,7 @@ function Welcome () {
     
     return (
         <>
+            <div className='welcome__container'>
                     <div className='welcome__text'>
                         <h1>Hi, my name is Malin</h1>
 {/* <pre style={{letterSpacing: "1px"}}>                        
@@ -31,9 +32,10 @@ function Welcome () {
                     
                     <div className='welcome__img'>
                         <img src={arrow} alt="" className='welcome__arrow'/>
-                        <p className='welcome__arrowtext'>Hover for the professional AI image</p>
+                        <p className='welcome__arrowtext'>Hover for a "very" professional AI image</p>
                     </div>
 
+            </div>
         </>
     )
 }

@@ -19,6 +19,7 @@ function Projects() {
         document.body.style.overflow = "auto";
         };
     }, [selectedProject]);
+    //
 
     return (
         <>

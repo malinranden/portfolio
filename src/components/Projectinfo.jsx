@@ -15,7 +15,7 @@ const Projectinfo = [
         tags: ["#CSS", " ", "#Javascript", " ", "#Sass"],
         popupInfo: {
             shortWriteUp: "A 12 hours deadline test to create this Figma file, adding interactivity and responsive design for all screen-sizes.",
-            info: "info",
+            info: "Features: responsive, Sass",
             linkHost: "https://github.com/malinranden/test-your-skills.git",
             linkRepo: "https://github.com/malinranden/test-your-skills.git",
             images: [brhomaon5],
