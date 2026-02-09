@@ -1,5 +1,12 @@
 @use '../styles/variables.scss';
 
+.container {
+  background-image: url(../assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #c5bfcd;
+}
+
 .portfolio {
     width: 70%;
     margin: 0 auto;
@@ -8,6 +15,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+
 }
 
 .welcome {
@@ -21,6 +30,10 @@
     margin-top: -60px; // this is to remove the height from navbar
 }
 .about{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    &__container {
     width: variables.$content-width;
     max-width: 500px;
     height: 500px;
@@ -32,6 +45,8 @@
     color: gray;
     border-radius: 50px;
     margin-bottom: 5%;
+    }
+
     &__text {
         width: 80%;
         display: flex;
@@ -44,7 +59,7 @@
     // background-color: #b8b0c5;
     border-radius: 50px;
     margin-bottom: 5%;
-    height: 80vh;
+    height: 100vh;
 }
 .contact {
     width: variables.$content-width;

@@ -1,11 +1,12 @@
 import Brhomaon from "../assets/brhomaon.png"; // ./ eller ../ ? 
 // import genesis from "../assets/genesis.png";
 import portfolio from '../assets/portfolio.png'
-import game from '../assets/game.png'
+import gameopp from '../assets/gameopp.png'
 
 import brhomaon5 from '../assets/brhomaon5.png'
 import gamegame from '../assets/gamegame.png'
 import gamesignin from '../assets/gamesignin.png'
+import gameopp2 from '../assets/gameopp2.png'
 const Projectinfo = [ 
     {
         id: 1,
@@ -29,7 +30,7 @@ const Projectinfo = [
         info: "info",
         tags: ["#CSS", " ", "#Javascript", " ", "#Sass", " ", "#React"],
         popupInfo: {
-            shortWriteUp: "Fully responsive (down to mobile screen).",
+            shortWriteUp: "Fully responsive (down to mobile screen). Designed by me.",
             info: "Info",
             linkHost: "https://github.com/malinranden/Assignment-lesson-11-Sass.git",
             linkRepo: "https://github.com/malinranden/Assignment-lesson-11-Sass.git",
@@ -41,7 +42,7 @@ const Projectinfo = [
     {
         id: 3,
         title: "Game in React",
-        img: game,
+        img: gameopp,
         info: "Group assignment to create any game using React and API's",
         tags: ["#CSS", " ", "#Javascript", " ", "#React"],
         popupInfo: {
@@ -49,7 +50,7 @@ const Projectinfo = [
             linkHost: "#",
             linkRepo: "#",
             // link: "#",
-            images: [gamesignin, gamegame, game],
+            images: [gamesignin, gamegame, gameopp2],
             layout: "grid",
         }
     }

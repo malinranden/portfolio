@@ -35,6 +35,15 @@ function Welcome () {
                         <p className='welcome__arrowtext'>Hover for a "very" professional AI image</p>
                     </div>
 
+                    <div className='welcome__seemore' >
+                        <a href="#about">
+                            <div className='welcome__scroll'>
+                                <p>scroll down</p>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </a>
+                    </div>
+
             </div>
         </>
     )

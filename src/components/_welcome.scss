@@ -13,24 +13,49 @@
         justify-content: center;
     }
     &__img {
+        // width: 400px;
+        // height: 400px;
+        // flex: 0 0 auto;
+        // border-radius: 50%;
+        
+        // background-image: url(../assets/jag.png);
+        // background-size: 105%;
+        // background-position: center -170px;
+
+        //         //keep this commented out 
+        //         // background-image: url(../assets/me2.png);
+        //         // background-size: 130%;
+        //         // background-repeat: no-repeat;
+        //         // background-position-x: 50%;
+    
+        // transition: 0.5s ease-in-out;
+        // position: relative;
+        // overflow: visible;
+
+        //
+
         width: 400px;
         height: 400px;
         flex: 0 0 auto;
-        border-radius: 50%;
-        
-        background-image: url(../assets/jag.png);
+        // border-radius: 50%;
+        // border: 2px double black;
+        background-image: url(../assets/girl.png);
+        background-image: url(../assets/testbild2.png);
+        background-image: url(../assets/ploj.png);
         background-size: 105%;
-        background-position: center -170px;
 
-        // background-image: url(../assets/me2.png);
-        // background-size: 130%;
-        // background-repeat: no-repeat;
-        // background-position-x: 50%;
-    
-        transition: 0.5s ease-in-out;
+        //
 
-        position: relative;
-        overflow: visible;
+        // this is the text art 
+        // width: 440px;
+        // height: 440px;
+        // flex: 0 0 auto;
+        // border-radius: 50%;
+        // position: relative;
+        // overflow: hidden;
+        // font-size: 10px;
+        // color: blue;
+
     }
     &__img:hover {
         background-image: url(../assets/AIme.png);
@@ -61,7 +86,39 @@
         animation: fadein 4s ease-in-out forwards;
         animation-delay: 0.5s;
     }
+    &__seemore {
+        width: 100px;
+        position: absolute;
+        inset: 0;
+        margin: 700px auto;
+
+        &__seemore, a {
+            text-decoration: inherit;
+        }
+    }
+    &__scroll {
+        width: 120px;
+        height: 80px;
+            
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        font-weight: 200;
+        text-decoration: inherit;
+        font-size: 12px;
+        font-style: italic;
+        }
+
+        &__scroll, p {
+            margin: 7px;
+            letter-spacing: 1px;
+        }
+    
 }
+
+
 
 @keyframes fadein {
     to {

@@ -1,7 +1,7 @@
 
 .navbar {
  width: 100%;
- background-color: #f5d197;
+ background-color: #ffeff2;
  box-shadow: 0 2px 8px #00000015;
  position: sticky;
  top: 0;
@@ -22,7 +22,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 
-  background-color: #f5d197;
+  background-color: #ffeff2;
   
   text-align: center;
 
@@ -53,7 +53,7 @@ ul, a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     color: #333333de;
-    color: aliceblue;
+    // color: aliceblue;
     &:hover {
         color: rgb(124, 124, 124);
     }
@@ -63,4 +63,8 @@ ul, a {
 }
 .navbar__sun {
     font-size: 40px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
